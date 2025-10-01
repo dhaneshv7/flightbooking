@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flight Booking</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+    <div class="logo">FlyEase</div>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About Us</a>
+        <a href="#">Contact</a>
+        <a href="admin-login.html">Admin Login</a>
+        <a href="admin-register.html">Admin Register</a>
+    </nav>
+</header>
+
+<main class="container">
+    <section class="hero-section">
+        <h1>Your Journey Begins Here</h1>
+        <p>Find and book the best flights with ease.</p>
+        <div class="airplane-animation"></div>
+    </section>
+
+    <section class="search-section">
+        <form id="search-form">
+            <div class="input-group">
+                <label for="origin">Origin:</label>
+                <input type="text" id="origin" name="origin" required>
+            </div>
+            <div class="input-group">
+                <label for="destination">Destination:</label>
+                <input type="text" id="destination" name="destination" required>
+            </div>
+            <button type="submit">
+                <span class="circle1"></span>
+                <span class="circle2"></span>
+                <span class="circle3"></span>
+                <span class="circle4"></span>
+                <span class="circle5"></span>
+                <span class="text">Search Flights</span>
+            </button>
+        </form>
+    </section>
+
+    <section class="results-section">
+        <div id="flight-results">
+        </div>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 FlyEase. All Rights Reserved.</p>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
